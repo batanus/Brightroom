@@ -42,8 +42,7 @@ enum TempCode {
       containerGuide.leftAnchor.constraint(equalTo: slider.superview!.leftAnchor, constant: 44),
       
       slider.topAnchor.constraint(greaterThanOrEqualTo: containerGuide.topAnchor),
-      slider.rightAnchor.constraint(equalTo: containerGuide.rightAnchor),
-      slider.leftAnchor.constraint(equalTo: containerGuide.leftAnchor),
+      slider.leftAnchor.constraint(equalTo: containerGuide.leftAnchor, constant: 8),
       slider.bottomAnchor.constraint(lessThanOrEqualTo: containerGuide.bottomAnchor),
       slider.centerYAnchor.constraint(equalTo: containerGuide.centerYAnchor),
       
